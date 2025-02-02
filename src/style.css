@@ -2,6 +2,10 @@
     max-width: 1120px;
     margin: 0 auto;
 }
+*{
+    
+  
+}
 main {
     background-image: url('/Images/bg.png');
     width: 100%;
