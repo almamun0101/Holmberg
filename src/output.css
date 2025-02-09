@@ -590,8 +590,80 @@
   .top-0 {
     top: calc(var(--spacing) * 0);
   }
+  .top-1 {
+    top: calc(var(--spacing) * 1);
+  }
   .top-10 {
     top: calc(var(--spacing) * 10);
+  }
+  .top-20 {
+    top: calc(var(--spacing) * 20);
+  }
+  .top-30 {
+    top: calc(var(--spacing) * 30);
+  }
+  .top-40 {
+    top: calc(var(--spacing) * 40);
+  }
+  .top-50 {
+    top: calc(var(--spacing) * 50);
+  }
+  .top-60 {
+    top: calc(var(--spacing) * 60);
+  }
+  .top-65 {
+    top: calc(var(--spacing) * 65);
+  }
+  .top-70 {
+    top: calc(var(--spacing) * 70);
+  }
+  .top-80 {
+    top: calc(var(--spacing) * 80);
+  }
+  .top-100 {
+    top: calc(var(--spacing) * 100);
+  }
+  .top-120 {
+    top: calc(var(--spacing) * 120);
+  }
+  .top-140 {
+    top: calc(var(--spacing) * 140);
+  }
+  .top-150 {
+    top: calc(var(--spacing) * 150);
+  }
+  .top-160 {
+    top: calc(var(--spacing) * 160);
+  }
+  .top-180 {
+    top: calc(var(--spacing) * 180);
+  }
+  .-right-0 {
+    right: calc(var(--spacing) * -0);
+  }
+  .-right-1 {
+    right: calc(var(--spacing) * -1);
+  }
+  .-right-10 {
+    right: calc(var(--spacing) * -10);
+  }
+  .right-0 {
+    right: calc(var(--spacing) * 0);
+  }
+  .right-5 {
+    right: calc(var(--spacing) * 5);
+  }
+  .right-10 {
+    right: calc(var(--spacing) * 10);
+  }
+  .right-20 {
+    right: calc(var(--spacing) * 20);
+  }
+  .right-50 {
+    right: calc(var(--spacing) * 50);
+  }
+  .right-220 {
+    right: calc(var(--spacing) * 220);
   }
   .left-0 {
     left: calc(var(--spacing) * 0);
@@ -602,11 +674,38 @@
   .left-10 {
     left: calc(var(--spacing) * 10);
   }
+  .left-20 {
+    left: calc(var(--spacing) * 20);
+  }
+  .left-50 {
+    left: calc(var(--spacing) * 50);
+  }
+  .left-200 {
+    left: calc(var(--spacing) * 200);
+  }
+  .left-220 {
+    left: calc(var(--spacing) * 220);
+  }
   .isolate {
     isolation: isolate;
   }
   .isolation-auto {
     isolation: auto;
+  }
+  .-z-1 {
+    z-index: calc(1 * -1);
+  }
+  .z-0 {
+    z-index: 0;
+  }
+  .z-1 {
+    z-index: 1;
+  }
+  .z-10 {
+    z-index: 10;
+  }
+  .z-999 {
+    z-index: 999;
   }
   .z-auto {
     z-index: auto;
@@ -739,6 +838,9 @@
   }
   .mb-20 {
     margin-bottom: calc(var(--spacing) * 20);
+  }
+  .mb-50 {
+    margin-bottom: calc(var(--spacing) * 50);
   }
   .box-border {
     box-sizing: border-box;
@@ -1017,6 +1119,24 @@
   }
   .scale-none {
     scale: none;
+  }
+  .rotate-0 {
+    rotate: 0deg;
+  }
+  .rotate-2 {
+    rotate: 2deg;
+  }
+  .rotate-10 {
+    rotate: 10deg;
+  }
+  .rotate-100 {
+    rotate: 100deg;
+  }
+  .rotate-200 {
+    rotate: 200deg;
+  }
+  .rotate-400 {
+    rotate: 400deg;
   }
   .rotate-none {
     rotate: none;
@@ -1551,6 +1671,9 @@
   .bg-\[\#0088cc\] {
     background-color: #0088cc;
   }
+  .bg-\[\#0489CA\] {
+    background-color: #0489CA;
+  }
   .bg-\[\#0C5F79\] {
     background-color: #0C5F79;
   }
@@ -1801,6 +1924,9 @@
   .py-20 {
     padding-block: calc(var(--spacing) * 20);
   }
+  .py-30 {
+    padding-block: calc(var(--spacing) * 30);
+  }
   .pt-3 {
     padding-top: calc(var(--spacing) * 3);
   }
@@ -1818,6 +1944,12 @@
   }
   .pt-20 {
     padding-top: calc(var(--spacing) * 20);
+  }
+  .pt-30 {
+    padding-top: calc(var(--spacing) * 30);
+  }
+  .pt-40 {
+    padding-top: calc(var(--spacing) * 40);
   }
   .pt-50 {
     padding-top: calc(var(--spacing) * 50);
@@ -1840,8 +1972,26 @@
   .pb-20 {
     padding-bottom: calc(var(--spacing) * 20);
   }
+  .pb-50 {
+    padding-bottom: calc(var(--spacing) * 50);
+  }
   .pb-70 {
     padding-bottom: calc(var(--spacing) * 70);
+  }
+  .pb-100 {
+    padding-bottom: calc(var(--spacing) * 100);
+  }
+  .pb-130 {
+    padding-bottom: calc(var(--spacing) * 130);
+  }
+  .pb-140 {
+    padding-bottom: calc(var(--spacing) * 140);
+  }
+  .pb-150 {
+    padding-bottom: calc(var(--spacing) * 150);
+  }
+  .pb-200 {
+    padding-bottom: calc(var(--spacing) * 200);
   }
   .pl-6 {
     padding-left: calc(var(--spacing) * 6);
@@ -2180,6 +2330,10 @@
   }
   .ring {
     --tw-ring-shadow: var(--tw-ring-inset,) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color, currentColor);
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .ring-0 {
+    --tw-ring-shadow: var(--tw-ring-inset,) 0 0 0 calc(0px + var(--tw-ring-offset-width)) var(--tw-ring-color, currentColor);
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
   .shadow {
