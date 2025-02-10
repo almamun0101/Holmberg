@@ -6,6 +6,19 @@
     
   
 }
+
+.navbar_after::after{
+    content: "";
+    width: 100px;
+    height: 100px;
+
+    top:0;
+
+    background-color: yellow;
+    color: red;
+    font-weight: bold;
+}
+
 main {
     background-image: url('/Images/bg.png');
     width: 100%;
