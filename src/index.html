@@ -21,10 +21,12 @@
         <nav class="md:flex lg:flex px-5 justify-between items-center py-5">
           <div class="flex justify-between">
             <img src="/Images/logo.png" alt="logo">
-            <button id="mobile-menu-button" class="bg-red-500 text-white rounded-4xl p-3 md:hidden lg:hidden">|||</button>
+            <button id="mobile-menu-button"
+              class="bg-red-500 text-white rounded-4xl p-3 md:hidden lg:hidden">|||</button>
           </div>
 
           <div id="mobile-menu" class="">
+            <div>
               <ul class="md:flex md:items-center md:gap-5 sm:5 lg:gap-10 lg:justify-between ;;; ">
                 <li class="lg:navbar_after relative py-5">Home</li>
                 <li class="lg:navbar_after relative py-5">About</li>
@@ -32,14 +34,15 @@
                 <li class="lg:navbar_after relative py-5">Testimonial</li>
                 <li class="lg:navbar_after relative py-5">Contact</li>
               </ul>
-
             </div>
-            <div class="">
 
+            <div>
               <button class="bg-red-500 text-white rounded-4xl md:text-xs px-1 py-3 ">Sing Up Now</button>
             </div>
+
           </div>
-        </nav>
+      </div>
+      </nav>
 
       </div>
     </section>
@@ -51,7 +54,7 @@
         <div class="grid lg:grid-cols-2 gap-4 pb-20 ">
 
           <div class="card">
-            <h1 class="text-5xl font-bold pt-20 w-150">
+            <h1 class="text-5xl font-bold lg:pt-10 pt-0 w-150">
               EVERYTHING FOR YOUR REMOTE MEETINGS
               ALL IN ONE PLACE
             </h1>
@@ -63,7 +66,7 @@
               Download The Theme
             </button>
           </div>
-          <div class="card pb-140 ">
+          <div class="card lg:pb-140 pb-90">
             <img class="absolute" src="/Images/banner.jpg" alt="banner">
           </div>
         </div>
@@ -75,10 +78,12 @@
 
   <main>
     <section class="relative">
-      <img class="absolute top-160  left-50 rotate-0  z-1" src="/Images/3.png" alt="">
-      <img class="absolute top-140  right-50 rotate-0  z-1" src="/Images/4.png" alt="">
+      <div class="sm:hidden">
+        <img class="absolute top-160  left-50 rotate-0  z-1" src="/Images/3.png" alt="">
+        <img class="absolute top-140  right-50 rotate-0  z-1" src="/Images/4.png" alt="">
+      </div>
       <div class="container pt-50 justify-items-center">
-        <div class="heading text-center pl-20 text-white w-230 ">
+        <div class="heading text-center pl-20 text-white lg:w-230 w-auto ">
           <h2 class="text-5xl font-bold pb-5 ">
             COLLABORATIVE WORK SPACE FOR EVERY
             EACH MEETING FOR EASY ACCESS
@@ -93,6 +98,7 @@
         <div class="grid gap-15 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 pt-15">
           <div class="card z-10 bg-red-500 rounded-4xl px-5 py-15 justify-items-center">
             <div class="icons relative text-center ">
+              
               <img class="" src="/Images/iconbg.png" alt="">
               <img class="absolute top-10 left-8" src="/Images/icon1.png" alt="icon1">
             </div>
@@ -138,7 +144,7 @@
 
     <section>
       <div class="container">
-        <div class="head pt-50">
+        <div class="head pt-15 lg:pt-50">
           <h2 class="w-200 mx-auto  justify-items-center text-5xl font-bold pb-5 text-white text-center py-10  ">
             We know Happy Schedule is tool because we use every day
           </h2>
@@ -243,8 +249,8 @@
       </div>
     </section>
 
-    <section id="visitor" class="relative py-20 ">
-      <img class="absolute top-80  right-10 rotate-0  z-0" src="/Images/5.png" alt="">
+    <section id="visitor" class="relative py-10 ">
+      <img class="hidden lg:block absolute top-80  right-10 rotate-0  z-0" src="/Images/5.png" alt="">
       <div class="container text-white">
         <div class="grid lg:grid-cols-2 sm:grid-cols-1 gap:20">
           <div class="">
@@ -317,15 +323,15 @@
         </div>
 
         <div class="grid lg:grid-cols-2">
-          <div class="relative mb-20">
-            <img class="absolute" src="/Images/Group 572.png" alt="vector">
+          <div class=" mb-0">
+            <img class="" src="/Images/Group 572.png" alt="vector">
 
           </div>
 
           <div class="">
             <img src="/Images/Vector2.png" alt="Vector2">
             <div class="text-white text-left w-150 px-20 ">
-              <p class="text-2xl font-light pb-10 ">
+              <p class="text-2xl font-light pb-0 ">
                 "Dealing with sickle cell has been a lifelong rollercoaster. The thought of my voice being heard in the
                 world of medicine is really what motivated me to join this study. Not only to advocate for myself but”
               </p>
@@ -336,7 +342,7 @@
               <p>
                 CEO, THEMEFISHER
               </p>
-              <div class="flex py-5 pb-50">
+              <div class="flex py-5 pb-20 lg:pb-50">
                 <div class="mx-2  rounded-full w-5 h-5 bg-amber-300 "></div>
                 <div class="mx-2  rounded-full w-5 h-5 bg-[#0C5F79] "></div>
                 <div class="mx-2  rounded-full w-5 h-5 bg-[#0C5F79] "></div>
@@ -373,19 +379,19 @@
 
 
     <section id="footer" class="relative">
-      <img class="absolute top-65 right-5 rotate-0  z-1" src="/Images/8.png" alt="">
+      <img class="hidden lg:block absolute top-65 right-5 rotate-0  z-1" src="/Images/8.png" alt="">
 
-      <div class="container py-20  text-left">
+      <div class="container py-10 text-center px-20  lg:text-left md:text-left">
 
-        <div class="grid lg:grid-cols-4">
-          <div class="">
+        <div class="grid gap-10 md:grid-cols-2 md:gap-20 lg:grid-cols-4 ">
+          <div class="flex flex-col items-center justify-between">
             <img src="/Images/logo2.png" alt="">
             <p class="text-white pt-10 w-80">
               Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus,
               sed condimentum volutpat.
             </p>
           </div>
-          <div class="text-white">
+          <div class="text-white flex flex-col items-center justify-between">
             <h2 class="text-2xl pb-5 font-medium">
               Socials
             </h2>
@@ -419,7 +425,7 @@
             </ul>
           </div>
 
-          <div class="">
+          <div class="flex flex-col items-center justify-between">
             <h2 class="text-2xl  text-[#E5E5E5] pb-10 font-bold  ">
               Location & Contact
             </h2>
