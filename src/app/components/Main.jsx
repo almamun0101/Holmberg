@@ -205,11 +205,32 @@ const Main = () => {
             </p>
             <h3 className="pt-5 pb-2 text-2xl">Jhony Bravo</h3>
             <p className="text-sm text-white/60 ">CEO, THEMEFISHER</p>
-            <div>
-              <div></div>
-              <div></div>
-              <div></div>
+            <div className="flex text-center justify-center items-center pt-5 gap-2 ">
+              <div className="w-5 h-5 rounded-full bg-yellow-500"></div>
+              <div className="w-5 h-5 rounded-full bg-[#0c5f78]"></div>
+              <div className="w-5 h-5 rounded-full bg-[#0c5f78]"></div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="mt-20 text-center text-white">
+        <div className="flex flex-wrap p-10 bg-[#0c5f78] rounded-4xl gap-10 ">
+          <div className=" ">
+            <h2 className="text-3xl font-bold pb-5 ">
+              Helping teams in the world with focus
+            </h2>
+            <button className="bg-sec px-5 py-2 rounded-2xl">
+              Download The Theme
+            </button>
+          </div>
+          <div>
+            <p className="text-white/60">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+              egestas Werat viverra id et aliquet. vulputate egestas
+              sollicitudin .
+            </p>
           </div>
         </div>
       </section>
