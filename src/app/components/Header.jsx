@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div>
+    <div className='max-w-[1200px] mx-auto'>
        <section className='mt-10 p-5'>
         <div className="hidden">
 
@@ -10,7 +10,7 @@ const Header = () => {
         <img className='' src="/Images/1.png" alt="" />
         </div>
 
-        <div className='grid grid-cols-2 justify-between gap-2 items-center'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 justify-between gap-5 md:gap-2 lg:gap-3 items-center'>
           <div>
             <h1 className='text-2xl font-bold pb-5 '>EVERYTHING FOR YOUR REMOTE MEETINGS ALL IN ONE PLACE</h1>
             <p className='font-extralight'>
