@@ -3,7 +3,10 @@
 :root {
  --primary : #0b4b61;
 }
-
+@theme {
+  --color-pri : oklch(0.3891 0.0696 225.8);
+  --color-sec : oklch(0.6556 0.2307 24.11)
+}
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -13,13 +16,12 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    
+     --primary : #0b4b61;
   }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
+ 
   color:var(--primary);
   font-family: Arial, Helvetica, sans-serif;
 }
